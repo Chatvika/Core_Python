@@ -1,0 +1,5 @@
+a = int(input("Enter  first  num: "))
+#a = int(a)
+b = int(input ("Enter second num: "))
+#b = int (b)
+print(a+b)
