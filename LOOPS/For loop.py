@@ -26,3 +26,9 @@ for i in range(1,10):
 #Print each letter in a word
 for ch in 'HELLO':
     print(ch)
+
+#calculate the sum of all numbers 1 to 100 by using for loop
+sum = 0
+for i in range(1,101):
+    sum =sum+i
+print(sum)
