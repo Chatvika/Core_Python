@@ -91,7 +91,7 @@ s = input("Enter a string: ")
 for ch in s[::-1]:
     print(ch, end="")
 
-#12. # Print all elements of a list using a for loop.
+12. # Print all elements of a list using a for loop.
 
 numbers = [10, 20, 30, 40, 50]
 
@@ -118,6 +118,4 @@ print(smallest)
 
 #15.. Print numbers from 10 down to 1 (reverse order).
 for i in range(10,0,-1):
-    print(i)
-
-
+    print(i) 

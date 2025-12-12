@@ -1,70 +1,40 @@
 # Function: A function is a block of code written to perform a specific task. It is reusable and helps reduce repetition.
+#greet("Chatvika")
 
-# TYPES of Functions
-# 1. Pre-defined functions (Built-in)
-
-# Already available in Python.
-# Examples: print(), len(), type(), input()
-
-#  2. User-defined functions
-
-# Functions created by the programmer using def.
-
-#ex:
-def greet():
-    print("Hello")
-
-
-#Parameters
-#1).Formal parameters: variables declared in function definition.
-#2). Actual parameters : values you pass when calling the function.
-
-#ex:
-def add(a,b): #a,b are formal
-    return a+b
-add(5,3)   #5,3 are actual
-
-#Types of Arguments
-#1).Positional Arguments :Order matters
-def student(name,age):
-    print(name,age)
-student("chatvika","21")
-
-
-#2). keyword Arguments: order dos'nt matter.
-
-def student(name, age, course):
-    print("Name:", name)
-    print("Age:", age)
-    print("Course:", course)
-student(age=21, name="Chatvika", course="MCA")
-
-#3).Default Arguments : provide default values.
-
-#ex:
-def greet(name="Guest"):
-    print("Hello", name)
-greet("Chatvika")
-
-#4).Variable-Length Arguments : *args → multiple values
+# #4).Variable-Length Arguments : *args → multiple values
 #                                **kwargs → multiple keyword values
 def add(*nums):
-    print(sum(nums))
+     print(sum(nums))
 
 def info(**data):
-    print(data)
+     print(data)
 
 
 x = 10   # global
 
 def show():
-    global x
-    x = 20
+     global x
+     x = 20
 
 show()
 print(x)   # 20
+#Print all even numbers from 2 to 20.
+for i in range(1,21):
+ if i%2==0:
+    print(i)
+#Compute the sum of the first 10 natural numbers using a for-loop.
+#Print each character of a string using a for-loop.
+# for char in "Hello":
+#    print(char)
 
 
+var = "Chatvika"
+for i in var:
+   print(i)
+#Count how many vowels are in a given string.
 
-
-
+s1= "Hi How are U"
+s2="aeiouAEIOU"
+for i in s1:
+    if i in s2:
+        print(i)
