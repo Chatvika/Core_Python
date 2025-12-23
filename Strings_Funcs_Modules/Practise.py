@@ -93,19 +93,7 @@ def max_value(lst):
         if i > maximum:
             maximum = i
     return maximum
-
-# print(max_value([3, 8, 1, 9, 2]))
-# Write a function that returns the factorial of a number.
-# Write a function that checks if a string contains only alphabets.
-# Write a function that returns the sum of digits of a number.
-# Write a function that removes all vowels from a string.
-# Write a function that counts uppercase and lowercase letters in a string.
-# Write a function that checks if two strings are anagrams.
-# Write a function that returns the unique elements from a list.
-# Write a function that returns a new list with squares of all numbers.
-# Write a function to check if a number is prime.
-# Write a function that merges two dictionaries into one.
-
+# ;....
 #11).
 def max_value(numbers):
     return max(numbers)
