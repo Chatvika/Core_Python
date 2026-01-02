@@ -6,7 +6,7 @@
 # 6. Count the digits in a given number using a while loop.
 # 7. Print characters of a string one by one using a for loop.
 # 8 .Print squares of numbers from 1 to 10.
- #9. Count consonants in a string.
+#9. Count consonants in a string.
 #10. Print each character of a string on a new line.
 #11. Print the reverse of a string using a for loop.
 # 12.Print all elements of a list using a for loop.
@@ -29,8 +29,8 @@ for i in range(1,51):
 i = 1
 total = 0
 while i<10:
-    total =total+i
-    i = i+1
+    total+=i
+    i+=1
 print(total)
 
 
