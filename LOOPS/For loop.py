@@ -16,7 +16,7 @@ for i in range(1,21):
 
 for i in range(1,10001):
     print(" 9*",i ,"=",9*i)
-
+ 
 
 #print a even numbers from 1 to 10
 for i in range(1,10):

@@ -173,7 +173,7 @@ print(result)
 
 
 # nested  loops
-
+#  nested for loop
 for i in range(2, 4): # Outer loop
    for j in range(1, 11): # Inner loop
        print(f"{i} * {j} = {i*j}")
