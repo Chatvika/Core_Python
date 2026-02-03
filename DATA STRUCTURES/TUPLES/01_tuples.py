@@ -11,7 +11,7 @@ s="hello"
 rev=s[::-1]
 print("Reverse str:",rev)
 
-# 2). check if numberis even or odd
+# 2). check if number is even or odd
 n=12
 if n%2==0:
     print("Even number")

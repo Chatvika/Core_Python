@@ -81,5 +81,11 @@ print(math.pow(2, 3))  # 2^3
 # square = lambda x= x *x
 print(square(4))
 
+def add(*args):
+    return sum(args)
+print(add(2,3))
 
+def sum(**kwargs):
+    print (kwargs)
+sum(name="Chatvika",age=20)
 

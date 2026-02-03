@@ -76,3 +76,18 @@ class Employee:
         print(f"name:{self.name}|,age {self.id} ,| salary {self.salary} | hike {self.hike}")
 e2=Employee(" williams",23,87000,2000)
 e2.show()
+
+
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(result)
+
+def count_even(lst):
+    count=0
+    for i in lst:
+        if i%2==0:
+            count+=1
+    return count
+print(count_even([1,2,3,4,5]))
